@@ -20,5 +20,5 @@ $ conda activate ksn
 $ pip install libsvmdata benchopt jupyter modopt appdirs
 ```
 
-For convenience we also provide our conda environment exported in the file `ksn_env.yml`.
-To reproduce the experiments, run `generate_results_snr.sh`, `generate_results_n_samples.sh`, and `generate_results_rho.sh`, and `evolution_of_f1_score_with_iterations`.
+For convenience, we also provide our conda environment exported in the file `ksn_env.yml`.
+To reproduce from scratch the experiments, first, delete the content of the results files, i.e. delete the content of `results_n_samples.csv`, `results_rho.csv` and `results_snr.csv` (but keep the `.csv` file themselves). Then, run `generate_results_support_recovery_snr.sh`, `generate_results_support_recovery_n_samples.sh`, and `generate_results_support_recovery_rho.sh`. To plot the results once they are generated, run the notebook `read_results.ipynb`. Finally, to plot the figure describing the evolution of the f1-score along iterations, run the notebook `evolution_of_f1_score_with_iterations`.

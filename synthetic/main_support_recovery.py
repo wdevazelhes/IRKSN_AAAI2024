@@ -1,6 +1,5 @@
 import argparse
 import numpy as np
-from datasets import get_data
 from algorithms_support_recovery import get_score
 import csv
 import time
