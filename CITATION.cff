@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+
+authors:
+  - family-names: de Vazelhes
+    given-names: William
+  - family-names: Mukhoty
+    given-names: Bhaskar
+  - family-names: Yuan
+    given-names: Xiao-Tong
+  - family-names: Gu
+    given-names: Bin
+
+title: 'Iterative Regularization with k-support Norm: An Important Complement to Sparse Recovery'
+
+journal: 'arXiv preprint arXiv:2401.05394'
+
+year: 2024
